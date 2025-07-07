@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #f0f0f0;
+}
+
+#canvas {
+  display: grid;
+  grid-template-columns: repeat(32, 20px);
+  grid-template-rows: repeat(32, 20px);
+  margin: 20px auto;
+  width: fit-content;
+  gap: 1px;
+}
+
+.pixel {
+  width: 20px;
+  height: 20px;
+  background: #ffffff;
+  cursor: pointer;
+  border: 1px solid #ddd;
+}
+
+.palette {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.color {
+  width: 30px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+}
